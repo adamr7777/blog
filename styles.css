@@ -1,0 +1,57 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav > h3 {
+  margin: 0;
+}
+
+nav {
+  background: grey;
+  height: 30px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+
+#container {
+  padding: 1px 10px 10px;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+
+#form-el {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  background: lightblue;
+  padding-bottom: 60px;
+}
+
+textarea {
+  resize: none;
+  height: 400px;
+}
+
+
+.classI {
+  width: 800px
+}
+
+
+button {
+  margin-top: 30px;
+  width: 150px;
+}
