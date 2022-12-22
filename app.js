@@ -42,5 +42,13 @@ formEl.addEventListener('submit', function(e) {
     headers: {'Content-Type': 'application/json'}
   })
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => {
+      console.log(data)
+      container.innerHTML = `<h2>${data.title}</h2>
+                            <p>${data.body}</p>
+                            <hr></hr>` + container.innerHTML;
+    });
+
+  titleInput.value = '';
+  bodyInput.value = '';
 })
